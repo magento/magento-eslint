@@ -1,0 +1,28 @@
+{
+  "name": "@magento/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for Magento PWA-related projects",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prettier": "prettier --write '*.js'",
+    "prettier:check": "prettier-check '*.js'",
+    "test": "npm run prettier:check"
+  },
+  "keywords": [
+    "magento",
+    "eslint"
+  ],
+  "author": "Magento Commerce",
+  "license": "(OSL-3.0 OR AFL-3.0)",
+  "devDependencies": {
+    "prettier": "^1.9.2",
+    "prettier-check": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
