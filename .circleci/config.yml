@@ -63,9 +63,13 @@ workflows:
           filters:
             tags:
               only: /^v.*/
+            branches:
+              ignore: /.*/
       - deploy:
           requires:
             - hold
           filters:
             tags:
               only: /^v.*/
+            branches:
+              ignore: /.*/
