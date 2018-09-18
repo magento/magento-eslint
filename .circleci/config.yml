@@ -56,18 +56,9 @@ workflows:
           filters:
             tags:
               only: /.*/
-      - hold:
-          type: approval
-          requires:
-            - test
-          filters:
-            tags:
-              only: /^v.*/
-            branches:
-              ignore: /.*/
       - deploy:
           requires:
-            - hold
+            - test
           filters:
             tags:
               only: /^v.*/
