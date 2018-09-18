@@ -50,9 +50,12 @@ jobs:
 
 workflows:
   version: 2
-  test-deploy:
+  test-and-deploy:
     jobs:
-      - test
+      - test:
+          filters:
+            tags:
+              only: /.*/
       - hold:
           type: approval
           requires:
@@ -60,13 +63,9 @@ workflows:
           filters:
             tags:
               only: /^v.*/
-            branches:
-              ignore: /.*/
       - deploy:
           requires:
             - hold
           filters:
             tags:
               only: /^v.*/
-            branches:
-              ignore: /.*/
