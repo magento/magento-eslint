@@ -19,7 +19,8 @@
   "license": "(OSL-3.0 OR AFL-3.0)",
   "devDependencies": {
     "prettier": "^1.9.2",
-    "prettier-check": "^2.0.0"
+    "prettier-check": "^2.0.0",
+    "eslint-plugin-react": "^7.9.1"
   },
   "peerDependencies": {
     "eslint-plugin-jsx-a11y": "^6.0.3",
