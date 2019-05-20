@@ -19,16 +19,18 @@
   "author": "Magento Commerce",
   "license": "(OSL-3.0 OR AFL-3.0)",
   "devDependencies": {
-    "eslint": "^5.12.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-package-json": "^0.1.1",
     "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
     "prettier": "^1.9.2",
     "prettier-check": "^2.0.0"
   },
   "peerDependencies": {
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-package-json": "^0.1.1",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-hooks": "^1.6.0"
   }
 }
