@@ -1,9 +1,6 @@
 const config = {
     env: {
-        es6: true,
-        jest: true,
-        browser: true,
-        node: true
+        es6: true
     },
     plugins: ['jsx-a11y', 'package-json', 'react', 'react-hooks'],
     extends: [
@@ -13,14 +10,12 @@ const config = {
         'plugin:package-json/recommended'
     ],
     rules: {
-        'getter-return': 'off',
         'prefer-const': 'error',
         'no-console': 'off',
-        'no-empty': 'off',
         'no-unused-vars': 'error',
         'react/jsx-uses-vars': 'error',
         'react/jsx-uses-react': 'error',
-        'react-hooks/exhaustive-deps': 'warn',
+        'react-hooks/exhaustive-deps': 'error',
         'react-hooks/rules-of-hooks': 'error'
     }
 };
