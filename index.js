@@ -8,7 +8,8 @@ const config = {
         'react/jsx-uses-react': 'error',
         'react-hooks/exhaustive-deps': 'warn',
         'react-hooks/rules-of-hooks': 'error',
-        'no-duplicate-imports': 'error'
+        'no-duplicate-imports': 'error',
+        'one-var': ['error', 'never']
     }
 };
 
