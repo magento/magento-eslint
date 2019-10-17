@@ -7,7 +7,8 @@ const config = {
         'react/jsx-uses-vars': 'error',
         'react/jsx-uses-react': 'error',
         'react-hooks/exhaustive-deps': 'warn',
-        'react-hooks/rules-of-hooks': 'error'
+        'react-hooks/rules-of-hooks': 'error',
+        'no-duplicate-imports': 'error'
     }
 };
 
