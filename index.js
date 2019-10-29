@@ -10,15 +10,16 @@ const config = {
         'plugin:package-json/recommended'
     ],
     rules: {
-        'prefer-const': 'error',
         'no-console': 'off',
-        'no-unused-vars': 'error',
-        'react/jsx-uses-vars': 'error',
-        'react/jsx-uses-react': 'error',
-        'react-hooks/exhaustive-deps': 'error',
-        'react-hooks/rules-of-hooks': 'error',
         'no-duplicate-imports': 'error',
-        'one-var': ['error', 'never']
+        'no-unused-vars': 'error',
+        'one-var': ['error', 'never'],
+        'prefer-const': 'error',
+        quote: 'single',
+        'react/jsx-uses-react': 'error',
+        'react/jsx-uses-vars': 'error',
+        'react-hooks/exhaustive-deps': 'error',
+        'react-hooks/rules-of-hooks': 'error'
     }
 };
 
