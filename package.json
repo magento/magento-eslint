@@ -1,6 +1,6 @@
 {
   "name": "@magento/eslint-config",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Shared ESLint configuration for Magento PWA-related projects",
   "main": "index.js",
   "files": [
