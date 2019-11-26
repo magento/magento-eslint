@@ -12,9 +12,7 @@ const config = {
     rules: {
         'prefer-const': 'error',
         'no-console': 'off',
-        'no-undef': 'off',
         'no-unused-vars': 'error',
-        'no-useless-escape': 'off',
         'react/jsx-uses-vars': 'error',
         'react/jsx-uses-react': 'error',
         'react-hooks/exhaustive-deps': 'error',
