@@ -1,0 +1,30 @@
+{
+    "templateVersion": "0.1",
+    "product": {
+        "name": "Magento ESLint",
+        "description": "A shareable ESLint configuration used by all Magento PWA Studio projects"
+    },
+    "contacts": {
+        "team": {
+            "name": "The Untitled Geese",
+            "DL": "Grp-Untitled-Geese",
+            "slackChannel": "pwa"
+        }
+    },
+    "ticketTracker": {
+        "functionalJiraQueue": {
+            "projectKey": "PWA",
+            "component": ""
+        },
+        "securityJiraQueue": {
+            "projectKey": "MAGREQ",
+            "component": "PWA"
+        }
+    },
+    "staticScan": {
+        "enable": true,
+        "frequency": "quarterly",
+        "customName": "Magento ESLint Static Scan",
+        "branchesToScan": ["master"]
+    }
+}
